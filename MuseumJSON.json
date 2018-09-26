@@ -1,0 +1,10 @@
+{
+  "main" : {
+    "name" : "NAME",
+    "city" : "CITY",
+    "category" : "CATEGORY",
+    "longitude" : 47.615230,
+    "latitude" : -122.201390,
+    "webID" : "URL"
+  }
+}
