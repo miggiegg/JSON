@@ -1,10 +1,50 @@
 {
-  "main" : {
-    "name" : "NAME",
-    "city" : "CITY",
-    "category" : "CATEGORY",
-    "longitude" : 47.615230,
-    "latitude" : -122.201390,
-    "webID" : "URL"
-  }
+    "response":{
+        "museums":[
+            {
+            "name":"Seattle Pride Museum",
+            "location":{
+                "address":"Capitol Hill",
+                "lat":47.617364,
+                "lng":-122.319349,
+            },
+            "categories":"Other",
+            "webID":"https://www.nytimes.com"
+            },
+
+            {
+                "name":"Asian Art Museum",
+                "location":{
+                    "address":"Volunteer Park",
+                    "lat":47.630188,
+                    "lng":-122.314450,
+                },
+                "categories":"Art",
+                "webID":"https://www.bloomberg.com"
+            },
+
+            {
+                "name":"Museum of Pop Culture",
+                "location":{
+                    "address":"Seattle Center",
+                    "lat":47.621511,
+                    "lng":-122.348050,
+                },
+                "categories":"Culture",
+                "webID":"https://www.technologyreview.com"
+            },
+
+            {
+                "name":"Pinball Museum",
+                "location":{
+                    "address":"Pioneer Square",
+                    "lat":47.598052,
+                    "lng":-122.324741,
+                },
+                "categories":"Other",
+                "webID":"https://www.wsj.com"
+            }
+
+        ]
+    }
 }
